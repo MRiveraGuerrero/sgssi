@@ -14,8 +14,6 @@ letras_ordenadas = sorted(frecuencia.keys(), key=lambda k: frecuencia[k], revers
 cifrado.update({letras_ordenadas[0]:frecuencia_español[0], letras_ordenadas[1]:frecuencia_español[1]})
 """
 
-#verificamos la frecuencia de las palabras de 2 letras
-
 palabras = texto.split(" ")
 
 frecuencia_2 = {}
