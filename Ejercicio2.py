@@ -3,7 +3,7 @@ import hashlib
 from stegano import lsb
 import stegano
 
-carpeta_imagenes = '/home/imanol/Documents/seguridad/Labo2/imagen'
+carpeta_imagenes = '/home/mikel/Documents/seguridad/Labo2/imagen'
 
 for archivo_nombre in os.listdir(carpeta_imagenes):
     archivo_ruta = os.path.join(carpeta_imagenes, archivo_nombre)
