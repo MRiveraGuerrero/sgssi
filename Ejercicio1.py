@@ -12,18 +12,6 @@ for letra in texto:
 letras_ordenadas = sorted(frecuencia.keys(), key=lambda k: frecuencia[k], reverse=True) [:2]
 
 cifrado.update({letras_ordenadas[0]:frecuencia_español[0], letras_ordenadas[1]:frecuencia_español[1]})
-"""
-
-palabras = texto.split(" ")
-
-frecuencia_2 = {}
-for p in palabras:
-    
-    if len(p) == 2:
-        frecuencia_2.update({p[-1]:frecuencia_2.get(p[-1],0)+1})
-print(frecuencia_2)        
-frecuencia_1 = sorted(frecuencia_2.keys(), key=lambda k: frecuencia_2[k], reverse=True)    
-"""
 
 texto_final = ''
 
